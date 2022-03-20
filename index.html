@@ -63,10 +63,10 @@
             </div>
             <div>
                <div>
-                  <label for="coverage-for">Coverage for</label>
+                  <label for="coverage">Coverage for</label>
                </div>
                <div>
-                  <select id="coverage-for">
+                  <select id="coverage" name="coverage">
                      <option value="me" selected>me</option>
                      <option value="spouse">spouse</option>
                      <option value="child">child</option>
@@ -75,18 +75,19 @@
             </div>
             <div>
                <div>
-                  <label for="postal-code">ZIP code</label>
+                  <label for="zip">ZIP code</label>
                </div>
                <div>
-                  <input type="text" id="postal-code" placeholder="Enter your home ZIP code" />
+                  <input type="text" id="zip" name="zip" placeholder="Enter your home ZIP code" pattern="\d{5}"
+                     maxlength="5" size="5">
                </div>
             </div>
             <div>
                <div>
-                  <label for="my-birthdate">My Birthdate</label>
+                  <label for="birthdate">My Birthdate</label>
                </div>
                <div>
-                  <input type="text" id="my-birthdate" placeholder="Enter your birthdate" />
+                  <input type="date" id="birthdate" name="birthdate" />
                </div>
             </div>
          </div>
@@ -99,12 +100,21 @@
 
          </div>
          <div id="section-a" class="section">
-            <img src="./assets/images/couple.png" alt="Team dedication">
-            <h3>Oscar Care: An entire team dedicated to you</h3>
-            <p>
-               Oscar Care gives you personalized virtual care from the comfort of your home, at work, or on-the-go. Plus, with Oscar's Virtual Urgent Care and Virtual Primary Care<sup>1</sup>, you can book a visit with a provider for $0-anytime, anywher. Every Oscar member is also paired with a dedicated Care Team to answer questions and guide you to the care you need at just the right time.<sup>2</sup>
-            </p>
-            <p><a href="#">Learn more about Oscar Care =></a></p>
+            <div>
+               <img src="./assets/images/couple.png" alt="Team dedication">
+            </div>
+            <div>
+               <h3>Oscar Care: An entire team dedicated to you</h3>
+               <p>
+                  Oscar Care gives you personalized virtual care from the comfort of your home, at work, or on-the-go.
+                  Plus, with Oscar's Virtual Urgent Care and Virtual Primary Care<sup>1</sup>, you can book a visit with
+                  a
+                  provider for $0-anytime, anywher. Every Oscar member is also paired with a dedicated Care Team to
+                  answer
+                  questions and guide you to the care you need at just the right time.<sup>2</sup>
+               </p>
+               <p><a href="#">Learn more about Oscar Care =></a></p>
+            </div>
          </div>
          <div>e</div>
          <div>f</div>
