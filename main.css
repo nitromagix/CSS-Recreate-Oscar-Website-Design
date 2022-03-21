@@ -1,6 +1,6 @@
-/* * {
+* {
    border: 1px solid teal;
-} */
+}
 
 body {
    text-align: center;
@@ -334,10 +334,14 @@ h2 {
 }
 
 #jargon {
-
+   width: 85%;
    margin: auto;
-   padding: 50px 0 20px 20px;
+   padding: 50px 0;
    text-align: left;
+}
+
+#jargon h2 {
+   margin-left: 30px;
 }
 
 #jargon hr {
@@ -345,7 +349,7 @@ h2 {
    height: 2px;
    width: 50px;
    border-width: 0px;
-   margin: 0;
+   margin: 0 0 0 30px;
 }
 
 #terms>div:last-child {
@@ -375,7 +379,7 @@ h2 {
 #terms>div:last-child>div>div {
    width: 85%;
    text-align: left;
-   margin: 0 20px 20px 0;
+   margin: 0 auto 20px auto;
    height: 100%;
 }
 
@@ -491,6 +495,18 @@ footer {
       font-size: unset;
    }
 
+   #jargon {
+      padding-left: 0px;
+   }
+
+   #jargon hr {
+      margin-left:0;
+   }
+
+   #jargon h2 {
+      margin-left: 0;
+   }
+
    #terms>div:last-child {
       display: flex;
       flex-direction: row;
@@ -504,7 +520,6 @@ footer {
    #terms>div:last-child h3 {
       margin-top: 10px;
    }
-
 
    #terms>div:last-child div:first-child {
       flex: 100%;
@@ -521,5 +536,9 @@ footer {
    #terms>div:last-child>div:first-child>img {
       max-width: 45%;
       margin: 20px;
+   }
+
+   #terms>div:last-child>div:first-child>div:last-child {
+      margin-left: 20px;
    }
 }
