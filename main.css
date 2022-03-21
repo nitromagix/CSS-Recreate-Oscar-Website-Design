@@ -97,7 +97,7 @@ nav {
    color: white;
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    height: 60px;
-   padding-top: 15px;
+   padding-top: 10px;
 }
 
 nav div {
@@ -156,9 +156,10 @@ nav div {
 
 #shop-plans a {
    display: inline-block;
+   font-size: 13px;
    color: white;
-   margin-right: 15px;
-   padding: 8px;
+   margin: 5px 10px 0;
+   padding: 10px 8px 11px;
    border: 1px solid white;
    border-radius: 10pc;
    text-decoration: none;
