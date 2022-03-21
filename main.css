@@ -318,14 +318,17 @@ h2 {
    font-size: 12px;
 }
 
-#terms {
-   background: #faf4ea;
-}
-
 /* Terms */
 
 #terms {
-   width: 90%;
+   background: #faf4ea;
+   width: 100%;
+   margin: auto;
+}
+
+#terms>div
+{
+   width: 85%;
    margin: auto;
 }
 
@@ -362,13 +365,16 @@ h2 {
 #terms>div:last-child img {
    width: 100%;
    margin:auto;
-   
+}
+
+#terms>div:last-child p {
+   font-size: 14px;
 }
 
 #terms>div:last-child>div>div {
    width: 85%;
    text-align: left;
-   margin: 0 20px 30px 20px;
+   margin: 0 20px 20px 0;
    height: 100%;
 }
 
@@ -492,6 +498,12 @@ footer {
    #terms>div:last-child>div {
       flex: 30%
    }
+
+
+   #terms>div:last-child h3 {
+      margin-top: 10px;
+   }
+
 
    #terms>div:last-child div:first-child {
       flex: 100%;
